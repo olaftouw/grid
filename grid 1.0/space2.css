@@ -1,0 +1,77 @@
+body {
+	background-image: url(bg.png);
+	font-family: Tahoma;
+}
+
+#frame {
+	background-color: rgba(255,200,200,0.3);
+	margin: auto;
+	width: 1020px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+header nav ul {
+	list-style-type: none;
+	background-color: rgba(255,255,200,0.3);
+	height: 40px;
+	display: flex;
+	margin: 0;
+	padding: 0 0 0 2px;
+}
+
+header > h1 {text-align: center;/* padding-top: 10px; */margin: 0;line-height: 80px;/* height: 90px; */text-align: center;}
+
+#content {
+	display: flex;
+	box-sizing: border-box;
+}
+
+nav li {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0 8px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	display: flex;
+	align-self: center;
+}
+
+main{
+	border: 1px black solid;
+	background-color: rgba(200,200,255,0.3);
+	width: 690px;
+	padding: 9px;
+	box-sizing: border-box;
+}
+
+aside{
+	border: 1px black solid;
+	background-color: rgba(200,255,200,0.3);
+	width: 310px;
+	padding: 9px;
+	box-sizing: border-box;
+}
+
+body article {
+	background-color: rgba(200,200,200,0.6);
+}
+
+footer {
+	background-color: rgba(255,255,200,0.3);
+	text-align: center;
+	font-weight: 600;
+}
+
+p {
+    padding: 0 0 5px 0;
+}
+
+aside > article > h1 {
+    margin-bottom: 25px;
+}
